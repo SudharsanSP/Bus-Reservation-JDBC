@@ -140,6 +140,8 @@ public class BookingDAO {
         if((age>=5 && age<=12) || age>=65){
             fare = fare*distance;
             fare = fare - (0.20 * fare);
+        }else{
+            fare *= distance;
         }
         return fare;
     }

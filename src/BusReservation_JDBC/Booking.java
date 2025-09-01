@@ -170,7 +170,7 @@ public class Booking {
         return contactNo;
     }
     public int getBusNo(){
-        return this.busNo;
+        return busNo;
     }
     public String getBoarding() {
         return boarding;
